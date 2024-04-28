@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 680px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 12px -2px;
+}
+/* header  */
+.header_section{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #3122ffb8;
+    padding: 10px;
+}
+.header_logoMenu {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+.header_logoMenu h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.todo_add_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #5d53ed8c;
+}
+.add_button button{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    background: #277cfc;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    transition: .5s;
+}
+.add_button button:hover{
+    background: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #277cfc;
+    transition: .5s;
+}
+.search_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   margin-right: 10px;
+}
+.search_button form input{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.search_button form input:focus {
+    border: none ;
+}
+
+.search_button button{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    background: #277cfc;
+    position: absolute;
+   right: -10px;
+}
+
+/* todos  */
+
+.todos{
+    padding: 10px 15px;
+    background-color: #bebdbd44;
+}
+
+.singel-todo{
+    padding: 8px 10px;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    background-color: #ffffffec;
+}
+.singel-todo .uncomplit{
+    color: #0af7bb;
+    display: none;
+}
+.singel-todo .complit{
+    color: #0af7bb;
+}
+.singel-todo .info{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #313030ee;
+}
+.singel-todo .edt-dlt-icon{
+display: flex;
+justify-content: space-between;
+}
+.singel-todo .edt-dlt-icon .edit-icon{
+    padding-right: 10px;
+    color: #0af7bb;
+}
+.singel-todo .edt-dlt-icon .delet-icon{
+    color: #fa2313e7;
+}
+
+/* footer area  */
+
+.footer {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius:0px 0px 5px 5px;
+    background-color: #277cfc;
+    color: white;
+}
